@@ -39,7 +39,7 @@ fi
 
 ROOTDIR="$( cd "$( dirname "$0" )/.." && pwd )"
 VENDORDIR="$ROOTDIR/vendor"
-DOWNLOAD_URL=https://storage.googleapis.com/golang/$GO_PKG
+DOWNLOAD_URL=https://go.dev/dl/$GO_PKG
 ARCHIVE="$VENDORDIR/$GO_PKG"
 INSTALLDIR="$VENDORDIR/$GO_VERSION"
 export GOROOT="$INSTALLDIR/go"
